@@ -70,7 +70,7 @@ We'll be creating a 1-to-1 relationship (Customer <--> ShoppingCart), and a 1-to
 In the cell below: 
 
 * Complete the `Customer`, `ShoppingCart`, and `Item` classes. 
-* Give each class the correct table name ('customer', 'shoppingCart', and 'Item')
+* Give each class the correct table name ('customer', 'shoppingCart', and 'item')
 * Define the correct columns for each class, with the appropriate data types, and set the appropriate primary key and foreign keys.
 * Set the appropriate relationships between classes.
 
