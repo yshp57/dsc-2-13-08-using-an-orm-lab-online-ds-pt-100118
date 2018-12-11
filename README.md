@@ -76,11 +76,11 @@ We'll be creating a 1-to-1 relationship (Customer <--> ShoppingCart), and a 1-to
 In the cell below: 
 
 * Complete the `Customer`, `ShoppingCart`, and `Item` classes. 
-* Give each class the correct table name ('customer', 'shoppingCart', and 'Item')
+* Give each class the correct table name ('customer', 'shoppingCart', and 'item')
 * Define the correct columns for each class, with the appropriate data types, and set the appropriate primary key and foreign keys.
 * Set the appropriate relationships between classes.
 
-**_Hint:_** When setting the relationships, pay attention to the capitalization in the documenation--in some parts, you reference the name of the class, while in others, you reference the name of the table!
+**_Hint:_** When setting the relationships, pay attention to the capitalization in the documentation--in some parts, you reference the name of the class, while in others, you reference the name of the table!
 
 **_Note:_** Running a cell more than one time will cause a "Table is already defined" error.  To fix this, just restart the kernel and run everything again. 
 
@@ -236,7 +236,7 @@ session = Session()
 
 Great! Now we have a session object that we can use to interact with our database.
 
-We can add items to our database one at a time by passing them in as a parameter to `session.add()`. We can also add multiplem items by passing them as a list into the `add_all()` method. In the cell below, use `add_all()` to add `customer1`, `cart1`, and `item1` into our database.
+We can add items to our database one at a time by passing them in as a parameter to `session.add()`. We can also add multiple items by passing them as a list into the `add_all()` method. In the cell below, use `add_all()` to add `customer1`, `cart1`, and `item1` into our database.
 
 
 ```python
